@@ -97,7 +97,7 @@ h6 {
 	padding: 0 0 10px 0;
 	font-weight: normal;
 	line-height: 120% !important;
-	color: #333333;
+	color: #212529;
 	margin: 0
 }
 
@@ -105,7 +105,7 @@ h6 {
 h1 {
 	font-size: 28px;
 	text-align: center;
-	color:#333333;
+	color:#212529;
 	
 	font-weight: 500;
 	line-height: 62px;
@@ -401,7 +401,7 @@ a img.aligncenter {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #000;
+	background-color: #1f1f1f38;
 	z-index: 0;
 	opacity: .6;
 }
@@ -591,7 +591,7 @@ xclip
 }
 
 .section-title h3 {
-	color:#333333;
+	color:#212529;
 	font-size: 38px;
 	font-weight: 500;
 	line-height: 62px;
@@ -603,7 +603,7 @@ xclip
 .section.colorsection p,
 .section.colorsection h3,
 .section.db h3 {
-	color: #333333;
+	color: #212529;
 }
 
 
@@ -696,7 +696,7 @@ xclip
 
 .services-inner-box{
 	padding: 15px;
-	background: #ffffff;
+	background: #f2f3f5;
 	margin-bottom: 30px;
 	text-align: center;
 }
@@ -873,6 +873,7 @@ xclip
   width: 50%;
   background-color:#ffffff;
 }
+
 
 
 /*------------------------------------------------------------------
@@ -2250,12 +2251,12 @@ select.mobile-device {
 }
 
 #contact {
-	background: url(images/bg.png) no-repeat center center #333333;
+	/*background: url(images/bg.png) no-repeat center center #333333;*/
 }
 
 
 #contact .section-title p{
-	color: #333333;
+	color: #212529;
 }
 
 .contact_form textarea.form-control{
