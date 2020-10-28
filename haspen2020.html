@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-width">
+	<title>Haspen2020</title>
+
+ <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+<style>
+body {
+	margin:0;
+}
+.hero-image{
+	background-image: url('uploads/2020 Haspen 05.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#square {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+	border: 2px solid black;
+	padding: 10px;
+	background-color: #fff;
+	display: none;
+	border-radius: 20px;
+	overflow: auto;
+
+}
+ div {
+    padding: 10px;
+}
+/*.button {
+	position: absolute;
+  	line-height: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    cursor: pointer;
+    background: #8299cd;
+
+}*/
+
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Haspen 2020</h1>
+    <h2>The most beautiful trip in close range</h2>
+    <p id="white-box"></p>
+    <button  class="btn tripplanner" id="tripplanner" type="button" onclick="funcTripplanner()">Let's plan your trip</button>
+    
+  </div>
+  
+	<div id="square">
+   	<button class="btn close" id="CloseSquare" type="button" name="hide" onclick="hideSquare();">Hide</button>
+	   	<div class = "row">
+	   	</div>
+		<div class = "row">
+			<div class="col-md-2" style="max-height:10%">
+				<h1 style="margin-bottom: 0px">Haspen</h1>
+				<h1 style="font-size: 46px">2020</h1>
+			</div>
+			<div class="col-md-2"style="max-height:10%">
+				
+			</div>
+				<div class="col-md-2"style="height:10%">
+				<h2>Kilometers</h2>
+				<h3>450</h3>
+			</div>
+			<div class="col-md-2"style="height:10%">
+				<h2>Days</h2>
+				<h3>2</h3>
+			</div>
+			<div class="col-md-2"style="height:10%">
+				<h2>Stops</h2>
+				<h3>Day 1: 3<br>Day 2: 2</h3>
+			</div>
+			<div class="col-md-2"style="height:10%">
+				<h2>Hotels</h2>
+				<h3 style="padding-bottom: 0px"><a href="https://www.haspenhoeve.be/">Haspenhoeve</a></h3>
+				<p><a href="https://www.haspenhoeve.be/">click to visit</a></p>
+			</div>
+		</div>
+		<div class = "row">
+			<div class="col-md-2" style="max-height:10%">
+				<img class="img-eventpage" src="uploads/2020 Haspen 01.jpg" alt="HaspenEvent" />
+			</div>
+			<div class="col-md-2"style="max-height:10%">
+				<img class="img-eventpage" src="uploads/2020 Haspen 02.jpg" alt="HaspenEvent" />
+			</div>
+			<div class="col-md-2"style="height:10%">
+				<img class="img-eventpage" src="uploads/2020 Haspen 03.jpg" alt="HaspenEvent" />
+			</div>
+			<div class="col-md-2"style="height:10%">
+				<img class="img-eventpage" src="uploads/2020 Haspen 04.jpg" alt="HaspenEvent" />
+			</div>
+			<div class="col-md-2"style="height:10%">
+				<img class="img-eventpage" src="uploads/2020 Haspen 05.jpg" alt="HaspenEvent" />
+			</div>
+			<div class="col-md-2"style="height:10%">
+				<img class="img-eventpage" src="uploads/2020 Haspen 06.jpg" alt="HaspenEvent" />
+			</div>
+		</div>
+		<div class = "row">
+			<div class="col-md-3" style="max-height:10%">
+				<h1>Data</h1>
+				<h2>28 October 2020<br>-<br>30 October 2020 </h2>
+				<br>
+				<hr>
+				<br>
+				<p>Book with us for this event at the dates above</p>
+				<button>Book Now</button>
+			</div>
+			<div class="col-md-8" style="text-align: left">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat tortor non enim pharetra, commodo egestas leo egestas. Vestibulum lacinia finibus mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam auctor tortor consequat, imperdiet sapien eget, mattis orci.<br> Nullam in accumsan erat, vitae tempus odio. Etiam arcu felis, imperdiet ut ultrices mattis, ultrices eget enim. Quisque ut rhoncus nulla. Nunc id nisl id velit euismod gravida non venenatis risus. Proin efficitur gravida risus, et aliquet ipsum facilisis dapibus. Proin eu nisl lobortis, malesuada quam vel, luctus mauris. Phasellus sed orci volutpat, luctus magna ut, tincidunt orci. Sed bibendum eros elementum, venenatis ligula ut, cursus purus. Vivamus vehicula rhoncus maximus. Aliquam eleifend consequat odio, et gravida nibh viverra eget. Nulla eu sagittis libero.<br>
+
+				Cras at ligula ut diam cursus efficitur non eu odio. Morbi risus metus, pulvinar a purus et, hendrerit iaculis est. Etiam eget metus pretium, lacinia augue quis, pretium leo. Nunc non neque tristique lectus imperdiet egestas ut sit amet odio. Donec quis magna orci. Praesent lobortis risus vitae turpis ultrices gravida. Nunc convallis efficitur nunc, in laoreet leo semper eu.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	function hideSquare() {
+    if (!document.getElementById) return;
+    var obj = document.getElementById("square");
+    obj.style.display="none";
+	}
+	function funcTripplanner() {
+		if (!document.getElementById) return;
+    var obj = document.getElementById("square");
+    obj.style.display="block";
+	}
+</script>
+</body>
+</html>
